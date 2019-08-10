@@ -1,0 +1,32 @@
+.job-box {
+    margin-right: 20px;
+}
+
+.job-header {
+    position: relative;
+    display: flex;
+
+}
+
+.job-header>p {
+    margin: 0px;
+    line-height: 24px;
+    padding: 0px 5px;
+}
+
+.job-dates {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 0.7em;
+}
+
+.job-logo {
+    width: 24px;
+    height: 24px;
+}
+
+.job-bullets>p {
+    padding-left: 8px;
+    margin: 8px 0px;
+}
