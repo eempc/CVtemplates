@@ -24,6 +24,13 @@
     padding: 10px;
 }
 
+h1 {
+    font-size: 4.8em;
+        margin-block-end: 0px;
+        margin-block-start: 0px;
+        text-align: center;
+}
+
 .header-box * {
 
 }
@@ -36,7 +43,7 @@
 
 .header-icon-container {
 
-    background-color: lightgreen;
+    background-color: rgba(255, 255, 255, 0.486);
     width: 42px;
     max-width: 42px;
     height: 42px;
@@ -57,11 +64,15 @@
     flex-grow: 1;
     border-bottom: 2px solid black;
     padding: 5px;
-    width: auto;
+
     line-height: 32px;
     font-size: 1.3em;
     margin: 12px 10px 12px 12px;
 
+}
+
+.content-box {
+    margin-left: 13px;
 }
 
 .job-box * {
@@ -69,8 +80,9 @@
 }
 
 .job-box {
-    margin-left: 13px;
+
     margin-right: 20px;
+    margin-bottom: 14px;
 }
 
 .job-header-line1 {
@@ -131,7 +143,7 @@
 .education-box * {}
 
 .education-box {
-    margin-left: 13px;
+
     margin-right: 20px;
 }
 
