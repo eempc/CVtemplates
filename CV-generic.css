@@ -24,25 +24,43 @@
     padding: 10px;
 }
 
+.header-box * {
+
+}
+
 .header-box {
     display: flex;
     align-items: center;
+    padding: 0px;
+}
+
+.header-icon-container {
+
+    background-color: lightgreen;
+    width: 42px;
+    max-width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-icon {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
+    width: 24px;
+    height: 24px;
 
 }
 
 .h2-style0 {
+    flex-grow: 1;
     border-bottom: 2px solid black;
     padding: 5px;
-    width: 100%;
+    width: auto;
     line-height: 32px;
     font-size: 1.3em;
-    margin: 15px 10px;
+    margin: 12px 10px 12px 12px;
 
 }
 
@@ -102,6 +120,7 @@
         margin: 0px;
         padding: 0px 5px;
         font-size: 0.9em;
+        font-style: italic;
 }
 
 .job-bullets>p {
