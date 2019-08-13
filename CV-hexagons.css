@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 850px;
+    max-width: 850px;
+    height: 1200px;
+    max-height: 1200px;
+    margin: auto;
+}
+
+#column1 {
+    grid-column: 1;
+    background-color: lavender;
+    padding: 10px;
+}
+
+#column2 {
+    grid-column: 2;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.hex-row * {
+
+}
+
+.hexagon-text {
+    line-height: 32px;
+    text-align: center;
+    margin: auto;
+}
+
+.hexagon {
+    position: relative;
+    width: 48px;
+    height: 27.71px;
+    background-color: #64C7CC;
+    margin: 13.86px 0;
+
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+}
+
+.hexagon:before {
+    bottom: 100%;
+    border-bottom: 13.86px solid #64C7CC;
+}
+
+.hexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 13.86px solid #64C7CC;
+}
+
+.hex-row {
+    display: flex;
+    margin-bottom: -11px;
+}
+
+.hexagon-odd-row .hexagon {
+    margin-left: 4px;
+}
+
+.hexagon-even-row {
+    margin-left: 26px;
+}
+
+.hexagon-even-row .hexagon {
+    margin-left: 4px;
+}

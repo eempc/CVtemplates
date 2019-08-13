@@ -31,6 +31,7 @@ h1 {
         text-align: center;
 }
 
+/* Header box style 1 */
 .header-box * {
 
 }
@@ -42,7 +43,6 @@ h1 {
 }
 
 .header-icon-container {
-
     background-color: rgba(255, 255, 255, 0.486);
     width: 42px;
     max-width: 42px;
@@ -57,18 +57,15 @@ h1 {
 .header-icon {
     width: 24px;
     height: 24px;
-
 }
 
 .h2-style0 {
     flex-grow: 1;
     border-bottom: 2px solid black;
     padding: 5px;
-
     line-height: 32px;
     font-size: 1.3em;
     margin: 12px 10px 12px 12px;
-
 }
 
 .content-box {
