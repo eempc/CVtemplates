@@ -81,6 +81,65 @@
 
 /* Education 2 Box */
 
+#education2 * {
+
+
+}
+
+#education2 {
+    margin-top: 12px;
+    outline: 1px solid black;
+    margin: 12px 2px;
+}
+
+.education2-box {
+    display: flex;
+}
+
+.education2-image-container {
+
+}
+
+.education2-image {
+    width: 64px;
+    height: 64px;
+    padding: 6px;
+    margin: auto;
+}
+
+.education2-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+    padding-left: 6px;
+}
+
+.education2-text-container p {
+    margin: 3px 0px;
+
+}
+
+.education2-institution {
+    font-weight: bold;
+}
+
+.education2-subject {
+    font-style: italic;
+    font-size: 0.92em;
+}
+
+.education2-date {
+    top: 6px;
+    right: 12px;
+    position: absolute;
+    font-style: italic;
+}
+
+.education2-text {
+    font-size: 0.88em;
+}
 
 
 .hidden {
