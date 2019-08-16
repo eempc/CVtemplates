@@ -23,8 +23,9 @@
 
 #education {
     display: flex;
-    outline: 1px solid black;
+
     margin: 2px;
+    padding: 0px;
 }
 
 /* education 1 box */
@@ -35,6 +36,9 @@
     flex-direction: column;
     padding: 10px;
     position: relative;
+    margin: 12px;
+    background-color: beige;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .corner-decal {
@@ -54,6 +58,7 @@
 .education-institution {
     align-self: center;
     font-weight: bold;
+    font-size: 0.9em;
     margin: 6px auto 0px auto;
 
 }
@@ -66,17 +71,25 @@
 .education-subject {
     align-self: center;
     margin: 6px auto 0px auto;
-    font-size: 0.85em;
+    font-size: 0.8em;
     font-style: italic;
 }
 
 .education-bullet-list {
-    margin: 6px auto 0px auto;
+    margin-top: 3px;
+
 }
 
-.education-bullet-list li {
-    font-size: 0.85em;
+.education-bullet-list p {
+    font-size: 0.8em;
     margin: 3px 0px;
+
+}
+
+.divider {
+    height: 5px;
+    background-color: black;
+    margin: 0px 10px;
 }
 
 /* Education 2 Box */
@@ -87,9 +100,8 @@
 }
 
 #education2 {
-    margin-top: 12px;
-    outline: 1px solid black;
     margin: 12px 2px;
+    padding: 12px;
 }
 
 .education2-box {
