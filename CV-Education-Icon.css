@@ -50,8 +50,8 @@
 }
 
 .education-logo {
-    width: 128px;
-    height: 128px;
+    width: 96px;
+    height: 96px;
     align-self: center;
 }
 
@@ -106,6 +106,8 @@
 
 .education2-box {
     display: flex;
+    background-color: beige;
+    box-shadow: 2px 2px 2px grey;
 }
 
 .education2-image-container {
