@@ -60,7 +60,6 @@
     font-weight: bold;
     font-size: 0.9em;
     margin: 6px auto 0px auto;
-
 }
 
 .education-date {
@@ -77,13 +76,11 @@
 
 .education-bullet-list {
     margin-top: 3px;
-
 }
 
 .education-bullet-list p {
     font-size: 0.8em;
     margin: 3px 0px;
-
 }
 
 .divider {
@@ -94,11 +91,6 @@
 
 /* Education 2 Box */
 
-#education2 * {
-
-
-}
-
 #education2 {
     margin: 12px 2px;
     padding: 12px;
@@ -108,10 +100,6 @@
     display: flex;
     background-color: beige;
     box-shadow: 2px 2px 2px grey;
-}
-
-.education2-image-container {
-
 }
 
 .education2-image {
@@ -132,7 +120,6 @@
 
 .education2-text-container p {
     margin: 3px 0px;
-
 }
 
 .education2-institution {
